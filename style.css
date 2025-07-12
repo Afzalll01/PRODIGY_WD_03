@@ -1,0 +1,55 @@
+/* style.css */
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  padding: 30px;
+}
+
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #edae;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+label, select {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+#mode {
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  outline: none;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#mode:hover {
+  background-color: #eaeaea;
+}
